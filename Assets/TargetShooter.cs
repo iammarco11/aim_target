@@ -9,7 +9,7 @@ public class TargetShooter : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            Ray ray = cam.ViewportPointToRay(new Vector3(0.5f, 0.5f));
+            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             if(Physics.Raycast(ray, out hit))
             {

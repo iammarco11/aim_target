@@ -360,7 +360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9b7984efa4f891938979abf307cf934, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camholder: {fileID: 1483204595}
+  camholder: {fileID: 1033829598}
 --- !u!4 &1483204595
 Transform:
   m_ObjectHideFlags: 0
